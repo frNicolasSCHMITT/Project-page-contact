@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(15, 1, 1);
+    text-align: center;
+}
+h1{
+    margin: 5%;
+}
+.cartes{
+    z-index: 2;
+    position: absolute;
+    margin-top: 5%;
+}
+.icones{
+    color: cyan;
+    font-size: 30px;
+}
+.remplir{
+    width: 100%;
+    margin-bottom: 5%;
+}
+.bleu{
+    background-color: cyan;
+    z-index: 1;
+    height: 500px;
+    margin-top: 5%;
+}
+.bouton{
+    border: 1px solid white;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    color: darkblue;
+}
+@media screen and (max-width: 769px) {
+    body{
+        background-color: cyan;
+    }
+    .bleu{
+        display: none;
+    }
+}
